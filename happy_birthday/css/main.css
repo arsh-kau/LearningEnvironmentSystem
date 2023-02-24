@@ -1,0 +1,45 @@
+body {
+    height: 2000vh;
+    margin: 0;
+    display: flex;
+    align-items: baseline;
+}
+
+.line-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+.line {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.decorations {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.garlands, .confeti {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scroll {
+    flex: 1;
+    text-align: center;
+}
+
+.filler {
+    height: 1750vh;
+}
